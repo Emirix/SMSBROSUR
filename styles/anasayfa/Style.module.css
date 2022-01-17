@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap");
+.ust {
+  background-color: #282C34;
+  padding-bottom: 2rem;
+}
+
+.AnaBilgi h1 {
+  color: #1A7CC3;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 4rem;
+  position: relative;
+}
+.AnaBilgi h1:after {
+  content: ".com.tr";
+  position: relative;
+  right: 60px;
+  color: white;
+  bottom: -20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.AnaBilgi p {
+  color: white;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+
+.h1 {
+  color: #1A7CC3;
+  font-weight: 700;
+}
+
+.ResimBoxes {
+  display: flex;
+  flex-direction: column;
+}
+.ResimBoxes img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.fSol {
+  background-color: #20232A;
+  box-sizing: border-box;
+}
+.fSol .icerik {
+  box-sizing: border-box;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fSag {
+  box-sizing: border-box;
+  background-color: #282C34;
+}
+.fSag .icerik {
+  box-sizing: border-box;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beyazH1 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.beyazH1 span {
+  font-weight: 400 !important;
+  color: #1A7CC3;
+}
+
+.Akil {
+  border-radius: 6px;
+  padding: 1rem;
+}
+.Akil h1 {
+  color: white;
+  font-weight: 700;
+}
+.Akil h1 span {
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.icerik2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.icerik2 h1 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.icerik2 h2 {
+  margin-bottom: 0;
+  color: #1A7CC3;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.icerik2 p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  margin-top: 2rem;
+  width: 50%;
+}
+
+/*# sourceMappingURL=Style.module.css.map */

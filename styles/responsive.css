@@ -1,0 +1,121 @@
+.cv50 {
+  width: 48%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cv50 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 780px) {
+  header {
+    padding: 0 1rem !important;
+    height: 60px !important;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100000000;
+  }
+  header .buttons {
+    display: none !important;
+  }
+
+  .boxsag h1 {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0 !important;
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .boxes {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .micerik h2 {
+    font-size: 2rem !important;
+  }
+  .micerik h3 {
+    font-size: 1rem !important;
+  }
+  .micerik p {
+    width: 80% !important;
+    text-align: center !important;
+  }
+
+  .boxsol {
+    display: none !important;
+  }
+
+  .boxsag {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+  }
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cv50 {
+    width: 100%;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .telefon3 {
+    width: 79%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .telefon3 {
+    width: 79%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 740px) {
+  .cx {
+    margin-left: 0 !important;
+    width: 50% !important;
+    text-align: center;
+  }
+
+  .lgr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #20232a;
+    background: linear-gradient(90deg, rgba(32, 35, 42, 0.7707457983) 0%, #20232a 20%, #20232a 80%, rgba(32, 35, 42, 0.77) 100%) !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

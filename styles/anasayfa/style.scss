@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+
+$mavi:#1A7CC3;
+$koyu:#20232A;
+$acik:#282C34;
+
+
+.ust {
+    background-color: $acik;
+    padding-bottom: 2rem;
+   
+}
+
+.AnaBilgi{
+    
+    h1{
+        color: $mavi;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-top: 4rem;
+        position: relative;
+
+        &:after{
+            content: ".com.tr";
+            position: relative;
+            right: 60px;
+            color: white;
+            bottom: -20px;
+            
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    p{
+        color: white;
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+
+  
+}  
+
+.h1{
+    color:#1A7CC3 ;
+  font-weight: 700;
+}
+.ResimBoxes{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+.fSol{
+    background-color: $koyu;
+    .icerik{
+      box-sizing: border-box;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    box-sizing: border-box;
+}
+
+.fSag{
+    box-sizing: border-box;
+    background-color: $acik;
+    .icerik{
+        box-sizing: border-box;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+.beyazH1{
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+
+    span{
+        font-weight: 400 !important;
+        color:$mavi
+    }
+}
+
+.Akil{
+    border-radius: 6px;
+    padding: 1rem;
+
+    h1{
+        color: white;
+        font-weight: 700;
+        span{
+            font-weight: 400;
+            line-height: 17px;
+        }
+    }
+}
+
+.icerik2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    h1{
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    h2{
+        margin-bottom: 0;
+
+        color: $mavi;
+        font-weight: 700;
+        font-size: 
+        3rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+        opacity: 0.8;
+        margin-top: 2rem;
+        width: 50%;
+    }
+}

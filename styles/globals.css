@@ -1,16 +1,105 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.text-mavi {
+  color: #1A7CC3;
 }
 
-a {
-  color: inherit;
+.bg-mavi {
+  background-color: #1A7CC3;
+}
+
+*{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.button{
+  border-radius: 4px;
+  border: none;
+  padding: 5px 18px;
+  transition: 0s;
+  transition:  transform .2s;
+  cursor: pointer;
+}
+
+.button.bg-mavi:hover{
+  background: linear-gradient(115.06deg, #1A7CC4 33.03%, #61DAFB 118.04%);
+}
+
+.button.bg-mavi:active{
+  background: #165263;
+  transform: scale(0.9);
+}
+
+.bg-acik{
+  background-color: #282C34;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
+
+.button.text-mavi:hover{
+  background: linear-gradient(120.25deg, #FFFFFF 26.55%, rgba(255, 255, 255, 0.79) 128%);
+
+}
+
+
+.e-input{
+  outline: none;
+  background: #222;
+  color: white;
+border: 1px solid rgba(0, 0, 0, 0.49);
+box-sizing: border-box;
+border-radius: 7px;
+min-height: 38px;
+padding-left: 10px;
+}
+.input-parlat{
+  background: rgba(255, 255, 255, 0.09);
+}
+.e-input:focus{
+  border: 1px solid #1A7CC3;
+}
+
+.bg-gri{
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.container-fluid{
+  overflow: hidden;
+}
+
+footer{
+  background-color:#282C34 ;
+  border-top: 2px solid #1A7CC3;
+  font-size: 0.8rem;
+}
+
+footer ul li{
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+}
+footer ul li a{
+  color: white;
+  opacity: 0.8;
   text-decoration: none;
+  transition: .2s;
+  text-align: center;
 }
 
-* {
-  box-sizing: border-box;
+footer ul li a:hover{
+  opacity: 1;
+  color: white;
+}
+
+/*# sourceMappingURL=globals.css.map */
+
+.fugrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .icons img{
+  width:20px;
+  margin-left: 0.4rem;
 }

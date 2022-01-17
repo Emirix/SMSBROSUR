@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@700&display=swap");
+.Box {
+  min-height: 150px;
+  margin-top: 3rem;
+  width: 100%;
+  background: linear-gradient(115.06deg, #1A7CC4 33.03%, #61DAFB 118.04%);
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+}
+.Box .Sag {
+  width: 65%;
+  padding: 10px;
+}
+.Box .Sag h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.Box .Sag p {
+  color: rgba(255, 255, 255, 0.658);
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+.Box .Sol {
+  width: 35%;
+  min-height: 150px;
+  position: relative;
+  background-color: #23262C;
+}
+.Box .Sol img {
+  z-index: 100;
+  width: 30%;
+}
+
+.SoruKutusu {
+  border: 2px solid #1A7CC3;
+  border-radius: 4px;
+  margin-bottom: 3rem;
+}
+.SoruKutusu .SoruKutusu_Header {
+  background-color: #1A7CC3;
+  padding: 0.5rem;
+  color: white;
+  margin-bottom: 1.3rem;
+  position: relative;
+}
+.SoruKutusu .SoruKutusu_Header .Sayi {
+  font-size: 6rem;
+  font-weight: 700;
+  top: -52px;
+  left: -16px;
+  position: absolute;
+  font-family: "Podkova", serif;
+}
+.SoruKutusu .SoruKutusu_Header h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.SoruKutusu .Cevap {
+  color: rgba(255, 255, 255, 0.712);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=Box.module.css.map */

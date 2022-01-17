@@ -1,0 +1,95 @@
+.loginBG{
+    background-color: rgba(#000,0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: gir .2s;
+}
+
+@keyframes b{
+    from{
+        transform: scale(0.7);
+ 
+    }to{
+        
+    }
+}
+
+@keyframes gir{
+    from{
+        transform: scale(1.1);
+ 
+    }to{
+        
+    }
+}
+
+@keyframes uza{
+    from{
+       opacity: 0;
+
+    }
+}
+
+@keyframes patla{
+    from{
+        background-color: rgba(#000,0);
+ 
+    }to{
+        background-color: rgba(#000,0.7);
+
+    }
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+    width: 50%;
+}
+.ps{
+    color: rgba(255, 255, 255, 0.678);
+    transition: .2s;
+    &:hover{
+        color:white;
+        cursor: pointer;
+    }
+}
+
+.loginContainer{
+    border-radius: 8px;
+    width: 700px;
+    height: 400px;
+    background-image: url(../public/sag.jpg);
+    
+    background-size: cover;
+    background-position-x: -140px;
+    animation: gir .3s;
+
+    .loginGradient{
+        background: linear-gradient(270.64deg, #20232A 54.65%, rgba(32, 35, 42, 0.54) 94.96%);
+        height: 100%;
+        padding: 2rem 0;    border-radius: 6px;
+        padding-right: 2rem;
+        position: relative;
+        animation: uza .5s;
+
+        button{
+            animation: b .4s;
+        }
+
+        h1{
+            
+            color: #1A7CC3;
+            font-weight: 700;
+        }
+    }
+}
