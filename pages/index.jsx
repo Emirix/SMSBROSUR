@@ -50,7 +50,7 @@ broşüre geçmenin tam zamanı "/>
           <div className="col-md-6">
             <div className={s.icerik2 + " micerik"}>
               <h1>TEK TIK İLE</h1>
-              <h2>10,000'LERCE</h2>
+              <h2>10,000LERCE</h2>
               <h3>Kişiye broşürünüzü yayınlayın</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, aperiam, repellat dolorem dolor voluptas quia quos aliquam inventore eaque modi voluptatum minus ad. Voluptatum ut facilis itaque animi optio culpa.</p>
             </div>
@@ -97,7 +97,7 @@ broşüre geçmenin tam zamanı "/>
 
               <div className="col-md-6 pb-4">
                 <div className={s.ResimBoxes}>
-                <iframe height={300} src="https://www.youtube.com/embed/QtXby3twMmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                <iframe height={300} src="https://www.youtube.com/embed/QtXby3twMmI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>                  
                 </div>
               </div>
             </div>
